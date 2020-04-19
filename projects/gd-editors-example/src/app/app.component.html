@@ -1,0 +1,4 @@
+<gd-color-editor Value="#ffff00"       (valueChanged)="onColorValueChanged($event)" style="position: absolute; top: 60px; left:  20px;"></gd-color-editor>
+<gd-date-editor  Value="02/15/2020"    (valueChanged)="onDateValueChanged($event)"  style="position: absolute; top: 60px; left: 260px;"></gd-date-editor>
+<gd-text-editor  Value="Hello my text" (valueChanged)="onTextValueChanged($event)"  style="position: absolute; top: 60px; left: 760px;"></gd-text-editor>
+<gd-combo-editor ValueID="1,2"         (valueChanged)="onComboValueChanged($event)" style="position: absolute; top: 60px; left: 510px;" [MultiSelectionEnabled]=true [Options]="[ { id: 1, name: 'Add' }, { id: 2, name: 'Edit'}, { id: 3, name: 'Delete'}]"></gd-combo-editor>
