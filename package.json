@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "editors-pack": "ng build && cd dist/editors-example && npm pack",
+    "editors-pack": "ng build && cd dist/gd-editors-example && npm pack",
     "e2e": "ng e2e"
   },
   "private": true,
